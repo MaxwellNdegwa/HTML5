@@ -1,0 +1,85 @@
+.header{
+    background-color: rgb(61, 216, 164);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(33, 6, 95);
+}
+
+#seriesName{
+    text-align: center;
+    margin-top: 5px; 
+    font-size: 60px;padding:5px ; 
+    text-decoration: underline;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.navbar{
+    display: inline ;
+    font-size: 20px;
+    padding:15px 15px;
+    background-color: rgb(0, 240, 228);
+    margin-left: 5px;
+}
+
+.content{
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.asta-image{
+    height: 800px;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+
+#seasons{
+    margin-right: 40%;
+    margin-left: 40%;
+    height: 500px;
+}
+
+#cast{
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(190, 15, 9); 
+    font-size: 25px;
+}
+
+.lists{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#reviews{
+    margin-right: 40%;
+    margin-left: 40%;
+    height: 500px;
+}
+
+#guide{
+    margin-right: 40%;
+    margin-left: 40%;
+    height: 500px;
+}
+
+.sections{
+    text-align: center;
+    font-size: 30px;padding:15px 13px; 
+    color: rgb(22, 9, 1);
+    background-color: rgb(224, 82, 0);
+    border-radius: 40px;
+   
+}
