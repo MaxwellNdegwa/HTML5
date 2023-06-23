@@ -1,0 +1,28 @@
+#nav{
+    background-color: rgb(100, 226, 16);
+    display:flex;
+    flex-direction: row;
+    height: 30%;
+}
+.topBar{
+    padding: 5px 5px;
+    font-size: 26px;
+}
+.food{
+    font-size: 23px;
+}
+
+.variety{
+    text-align: center;
+    font-size: 23px;
+    color: rgb(238, 139, 10);
+    border-radius: 50px;
+    background-color: black;
+    text-decoration: underline;
+}
+
+
+.variety img {
+    width: 50%;
+    height: auto;
+  }
