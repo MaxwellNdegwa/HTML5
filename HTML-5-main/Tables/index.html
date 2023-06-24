@@ -3,11 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 15px 25px;
+            margin: auto;
+        }
+    </style>
+
 </head>
 <body>
-    
+    <table>
+        <caption style="font-size: 25px;">
+            Table Sample
+        </caption>
 
-    
+            <td rowspan="5" style="font-size: 25px;">Hours</td>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thur</th> 
+            <th>Fri</th>
+        <tr>
+            <td>Art</td>
+            <td>English Lit</td>
+            <td> Sports</td>
+            <td>Science</td>
+            <td>Math</td>
+        </tr>
+        <td colspan="5" style="text-align: center;">
+            Lunch Break
+        </td>
+        <tr>
+            <td>Art</td>
+            <td>English Lit</td>
+            <td> Sports</td>
+            <td>Science</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>Art</td>
+            <td>English Lit</td>
+            <td>Sports</td>
+            <td>Science</td>
+            <td>Math</td>
+        </tr>
+        
+
+    </table>
 </body>
 </html>
