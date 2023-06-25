@@ -21,33 +21,37 @@
     <form id="registerForm" method="get">
 
         <p class="inputLabel">Username:</p>
-        <input class="inputItem" type="text" name="username" placeholder="Username" autofocus>
+        <input class="inputItem" type="text" name="username" placeholder="Username" autofocus required>
         
         <p class="inputLabel">Email:</p>
        
-        <input class="inputItem" type="email" placeholder="Email">
+        <input class="inputItem" type="email" placeholder="Email" required>
         
         <p class="inputLabel">Password:</p>
-        <input class="inputItem" type="password" name="password" placeholder="Password">
+        <input class="inputItem" type="password" name="password" placeholder="Password" required maxlength="8">
         
         <!-- <p class="inputLabel">Confirm Password:</p> -->
         <br><br>
         
-        <input class="inputItem" type="password" name="confirm-password" placeholder="Confirm Password">
+        <input class="inputItem" type="password" name="confirm-password" placeholder="Confirm Password" required maxlength="8">
         <br>
 
         <br>
-        <input class="inputItem" type="submit" value="Login">
+        <input class="inputItem" type="submit" value="Login" required>
         
-        <p class="inputLabel">Gender:</p>
+        <p class="inputLabel" >Gender:</p>
         
-        <input type="radio" name="male" value="Female">
+        <input type="radio" name="male" value="Female" >
         male</input>
-        <input type="radio" name="female" value="Female">
+        <input type="radio" name="female" value="Female" >
         Female</input>
-        <input type="radio" name="other" value="Other">
+        <input type="radio" name="other" value="Other" >
         Other</input>
+
         <br>
+        <p class="inputLabel">Age</p>
+        <input class="inputItem" type="number" name="age" min="18" max="30">
+    
         <br>
         <p class="inputLabel">Security question:</p>
         
