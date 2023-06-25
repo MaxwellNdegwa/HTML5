@@ -9,17 +9,61 @@
 
 </head>
 
-<body style="background-color: rgb(220, 223, 222);">
+<body style="background-color: rgb(13, 243, 166);">
 
     <div class="home">
         <ul style="list-style-type: none;">
             <li class="navbar"><a href="index.html" target="_parent"> Home</a></li>
-        
         </ul>
-  
     </div>
+    <h1 style="text-align: center;">Signup</h1>
 
-    <h1>Sign up page</h1>
+    <form id="registerForm">
+        <p class="inputLabel">Username:</p>
+        <input class="inputItem" type="text" name="username">
+        
+        <p class="inputLabel">Email:</p>
+       
+        <input class="inputItem" type="email">
+        
+        <p class="inputLabel">Password:</p>
+        <input class="inputItem" type="password" name="password">
+        
+        <p class="inputLabel">Confirm Password:</p>
+        
+        <input class="inputItem" type="password" name="confirm-password">
+        <br>
+        <br>
+        <input class="inputItem" type="submit" value="Login">
+        
+        <p class="inputLabel">Gender:</p>
+        
+        <input type="radio" name="male" value="Female">
+        male</input>
+        <input type="radio" name="female" value="Female">
+        Female</input>
+        <input type="radio" name="other" value="Other">
+        Other</input>
+        <br>
+        <br>
+        <p class="inputLabel">Security question:</p>
+        
+        <select class="inputItem" name="security-question">
+            <option>--select option--</option>
+            <option>What was your first pet name?</option>
+            <option>What was your first car name?</option>
+            <option>What was your first dog name?</option>
+        </select>
+        
+
+        <textarea class="inputItem" name="answer" rows="6" cols="30"></textarea>
+        <br>
+
+        <input id="termsCheck" type="checkbox" name="terms-conditions" value="accept"> I agree to the terms and conditions 
+        <br>
+        <input type="submit" value="Register">
+
+    </form>
 
 </body>
 </html>

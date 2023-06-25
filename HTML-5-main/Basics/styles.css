@@ -92,3 +92,26 @@
     flex-direction: row;
     margin-right: 5px;
 }
+
+#registerForm{
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 54px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputLabel{
+    margin: 0%;
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+
+.inputItem{
+    width: 100%;
+}
+
+#termsCheck{
+margin-top: 20px;
+margin-bottom: 20px;
+}
