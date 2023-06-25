@@ -18,21 +18,24 @@
     </div>
     <h1 style="text-align: center;">Signup</h1>
 
-    <form id="registerForm">
+    <form id="registerForm" method="get">
+
         <p class="inputLabel">Username:</p>
-        <input class="inputItem" type="text" name="username">
+        <input class="inputItem" type="text" name="username" placeholder="Username" autofocus>
         
         <p class="inputLabel">Email:</p>
        
-        <input class="inputItem" type="email">
+        <input class="inputItem" type="email" placeholder="Email">
         
         <p class="inputLabel">Password:</p>
-        <input class="inputItem" type="password" name="password">
+        <input class="inputItem" type="password" name="password" placeholder="Password">
         
-        <p class="inputLabel">Confirm Password:</p>
+        <!-- <p class="inputLabel">Confirm Password:</p> -->
+        <br><br>
         
-        <input class="inputItem" type="password" name="confirm-password">
+        <input class="inputItem" type="password" name="confirm-password" placeholder="Confirm Password">
         <br>
+
         <br>
         <input class="inputItem" type="submit" value="Login">
         
@@ -54,14 +57,43 @@
             <option>What was your first car name?</option>
             <option>What was your first dog name?</option>
         </select>
-        
+        <br>
+        <br>
+        <input list="technologies" name="tech">
+            <datalist id="technologies">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="React">
+                <option value="Angular">
+            </datalist>
+        <br>
 
+   
+        <br>
         <textarea class="inputItem" name="answer" rows="6" cols="30"></textarea>
         <br>
 
         <input id="termsCheck" type="checkbox" name="terms-conditions" value="accept"> I agree to the terms and conditions 
         <br>
+        
+        <input type="date" name="date" max="2023-12-31" min="1980-01-01">
+
+        <br>
+        <br>
+        <input type="file" name="image">
+        <br>
+        <br>
+
+
+        <br>
+        <br>
         <input type="submit" value="Register">
+        <br>
+
+        <br>
+        <input type="reset" value="Reset">
+        <br>
 
     </form>
 
