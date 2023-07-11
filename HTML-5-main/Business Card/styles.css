@@ -1,39 +1,71 @@
 
 body {
-    margin: 20px;
-    
+    margin: 10%;
+    text-align: center;
+    font: 1em sans-serif;
+    background-color: rgb(3, 18, 37);
 }
 
 .card {
-    width: 50%;
+    width: 800px;
     display: flex;
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 25%;
-    margin-bottom: 10%;
-    border-radius: 20px;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-right: 40px;
-    background-color: rgb(207, 219, 250);
-    font: 1em sans-serif;
-
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    color: #160652;
+    background-color: rgb(196, 226, 243);
+    background: linear-gradient( rgb(130, 206, 250), rgb(228, 240, 252));
+    
 }
 
 .avatar {
+    display: flex;
+    align-items: center;
+    background-image: url(img/profile.jpg);
+    background-size: cover;
     width: 300px;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    border: 1px solid blanchedalmond;
+    border: 1px solid rgb(250, 161, 27);
+    border-radius: 70px;
+}    
 
-}
+
+.avatar:hover {
+    background-image:url("img/wagon.jpg");
+    background-size: cover;
+    width: 300px;
+    transition: 800ms;
+}  
 
 .details {
     display: block;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    /* margin-right: 30px; */
+}
+
+.text{
+    text-align: start;
+    margin: 30px 0;
+   
+}
+
+.border{
+    border-bottom: 5px solid rgb(250, 152, 106);
+}
+
+#location:hover{
+    text-shadow: 7px 7px 15px #160652; 
+    font-size: 20px;
+    display: flex;
+   
+}
+
+#role:hover{
+    display: block;
+    font-style: italic;
+    font-size: 25px;
+    color: #fc6805;
+    
+}
+
+#role{
+    text-decoration: underline;
 }
