@@ -31,10 +31,11 @@ body{
 #par{
     border: 2px solid white;
     border-radius: 20px;
-    background-color: rgb(219, 67, 21);
+    background-color: rgb(219, 67, 21) (0.5);
     margin-top: 0%;
     padding: 20px 30px;
-    font-weight: bolder;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .activities{
