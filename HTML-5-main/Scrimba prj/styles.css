@@ -32,8 +32,6 @@ body{
 
 .activities{
     margin: 80px 30px;
-    display: block;
-    align-items: center;
     background-color: rgb(208, 246, 253);
     border: none;
     border-radius: 20px;
@@ -43,30 +41,41 @@ body{
     padding-top: 20px;
 }
 
-.description{
+.desc{
+    overflow: hidden;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 25px;
 }
 
+.real-estate{
+    display: block;
+    align-items: center;
+
+}
+
+.motorcade{
+    display: block;
+    align-items: center;
+   
+}
+
+.real-estate, .heading-info, .interests{
+    width: 400px;
+}
+
+
+.interests{
+    display: block;
+    align-items: center;
+}
 
 .images{
     border: 10px solid rgb(243, 143, 76);
     width: 200px;
+    height: 150px;
     border-radius: 50%;
 }
-
-.heading-info{
-    display: flex;
-    justify-content: space-around;
-}
-
-.par-info{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 20px;
-}
-
-
 
 .tour, .me{
     display: flex;
