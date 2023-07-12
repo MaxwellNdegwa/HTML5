@@ -1,35 +1,33 @@
 body{
    margin: 0%;
-   background-size:cover;
    text-align: center;
    font: 1em sans-serif;
+   background-image: url(img/paris.jpg);
 }
 
 .top{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5%;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
     color:white;
     background-image: url(img/area.jpg);
+    height: 400px;
 }
 
 #visit{
-    border: 1px solid black;
+    border-radius: 20px;
     background-color: rgb(20, 83, 62);
-    margin: 5% auto;
-    margin-bottom: 20px;
-    padding: 5px 10px;
+    margin-top: 8%;
+    padding: 20px 30px;
 }
 
 #par{
+    border: none;
+    border-radius: 20px;
     background-color: rgb(7, 28, 48);
     margin-top: 0%;
-    padding: 5px 10px;
-    
+    padding: 20px 30px;
+    font-weight: bolder;
 }
 
 .activities{
@@ -72,14 +70,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-    margin-top: 70px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: 30px;
     border-radius: 5px;
-    border-bottom: 10px solid rgb(83, 199, 6);
+    border-bottom: 10px solid rgb(9, 5, 73);
     background-color: rgb(139, 219, 233);
 }
 .my-image{
