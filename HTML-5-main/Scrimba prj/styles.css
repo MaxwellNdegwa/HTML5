@@ -6,18 +6,20 @@ body{
 }
 
 .top{
+    position: sticky;
+    top: 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
     color:white;
     background-image: url(img/area.jpg);
-    height: 400px;
+    height: 200px;
 }
 
 #visit{
     border-radius: 20px;
-    background-color: rgb(24, 38, 224);
-    margin-top: 8%;
+    background-color: rgb(224, 144, 24);
+    margin-top: 10px;
     padding: 20px 30px;
     letter-spacing: 1px;
 }
