@@ -22,7 +22,7 @@ body{
 }
 
 #visit:hover{
-    
+    cursor: pointer;
 }
 
 #par{
