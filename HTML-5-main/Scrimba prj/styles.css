@@ -26,7 +26,6 @@ body{
 
 #visit:hover{
     cursor: pointer;
-    border: 2px solid white;
     background-color: bisque;
     color: black;
 }
@@ -42,7 +41,8 @@ body{
 }
 
 .activities{
-    margin: 80px 30px;
+    width: 90%;
+    margin: 20px auto;
     background-color: rgb(208, 246, 253);
     border: none;
     border-radius: 20px;
