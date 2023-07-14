@@ -62,17 +62,22 @@ body{
 .real-estate{
     display: block;
     align-items: center;
-
 }
 
 .motorcade{
     display: block;
-    align-items: center;
-   
+    align-items: center;  
 }
+
 
 .real-estate, .heading-info, .interests{
     width: 400px;
+}
+
+.explore:hover{
+    cursor: pointer;
+    background-color: rgb(243, 151, 114);
+    border-radius: 5px;
 }
 
 
@@ -86,6 +91,10 @@ body{
     width: 200px;
     height: 150px;
     border-radius: 50%;
+}
+
+.images:hover{
+    box-shadow: 2px 2px grey;
 }
 
 .tour, .me{
