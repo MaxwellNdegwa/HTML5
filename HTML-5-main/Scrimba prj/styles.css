@@ -13,13 +13,15 @@ body{
     align-items: center;
     color:white;
     background-image: url(img/area.jpg);
-    height: 200px;
+    height: 150px;
 }
+
 
 #visit{
     border-radius: 20px;
     background-color: rgb(224, 144, 24);
     margin-top: 10px;
+    margin-bottom: 0%;
     padding: 20px 30px;
     letter-spacing: 1px;
 }
@@ -31,18 +33,13 @@ body{
 }
 
 #par{
-    border: 2px solid white;
-    border-radius: 20px;
-    background-color: rgb(219, 67, 21) (0.5);
-    margin-top: 0%;
-    padding: 20px 30px;
     font-weight: 800;
     letter-spacing: 1px;
 }
 
 .activities{
     width: 90%;
-    margin: 20px auto;
+    margin: 10px auto;
     background-color: rgb(208, 246, 253);
     border: none;
     border-radius: 20px;
@@ -69,17 +66,16 @@ body{
     align-items: center;  
 }
 
-
 .real-estate, .heading-info, .interests{
     width: 400px;
 }
 
 .explore:hover{
     cursor: pointer;
-    background-color: rgb(243, 151, 114);
-    border-radius: 5px;
+    background-color: rgb(121, 241, 131);
+    border-radius: 20px;
+    padding: 5px;
 }
-
 
 .interests{
     display: block;
