@@ -4,14 +4,14 @@ body{
 
 #topbar{
     color: white;
-    background-color: rgb(236, 54, 54);
+    background-color: rgb(255, 129, 25);
     padding: 20px;
     position: sticky;
     top: 0%;
 }
 
 .name{
-    color: rgb(31, 218, 231);
+    color: rgb(101, 31, 231);
     font-family: 'Lilita One', cursive;
     font-size: 30px;
 }
@@ -53,3 +53,6 @@ article{
     font-family: 'Lilita One', cursive;
 }
 
+article p {
+    background-color: aqua;
+}
