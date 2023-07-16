@@ -53,10 +53,25 @@ article{
     font-family: 'Lilita One', cursive;
 }
 
+
+        /* combinators */
+
+/* Descendant selector - selects and styles all elements in the main class*/
 /* article p {
     background-color: aqua;
 } */
 
-article > p {
+/* Child sector- applies styles only to elemnts without the div tag*/
+/* article > p {
     background-color: brown;
+} */
+
+/* Adjacent sibling selector- styles adjacent siblings with respect to divs ie styles the element below divs*/
+/* div + p {
+    background-color: bisque;
+} */
+
+/* General sibling selector - works like adjascent with the only diff being it highlight not only the adjscent one but also every puther elemnt selected not included in the div*/
+div ~ p {
+    background-color: lightblue;
 }
