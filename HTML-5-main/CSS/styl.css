@@ -53,6 +53,10 @@ article{
     font-family: 'Lilita One', cursive;
 }
 
-article p {
+/* article p {
     background-color: aqua;
+} */
+
+article > p {
+    background-color: brown;
 }
